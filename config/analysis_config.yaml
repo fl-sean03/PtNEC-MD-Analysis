@@ -1,0 +1,50 @@
+# Analysis Configuration
+
+# Data paths - reference only, do not copy data
+data_dir: "/home/sf2/LabWork/Workspace/9-NAMDAnalysis/data"
+
+# Output directory
+analysis_dir: "analysis"
+
+# System configurations
+systems:
+  - name: "0HPt"
+    dcd_file: "0H_cbs.dcd"
+    pdb_file: "cbs.pdb"
+    psf_file: "cbs.psf"
+  - name: "12HPt"
+    dcd_file: "12H_cbs.dcd"
+    pdb_file: "cbs.pdb"
+    psf_file: "cbs.psf"
+  - name: "4HPt"
+    dcd_file: "4H_cbs.dcd"
+    pdb_file: "cbs.pdb"
+    psf_file: "cbs.psf"
+  - name: "8HPt"
+    dcd_file: "8H_cbs.dcd"
+    pdb_file: "cbs.pdb"
+    psf_file: "cbs.psf"
+
+# Analysis parameters
+fragment_analysis:
+  contact_threshold: 2.5  # Angstroms
+
+# RDF parameters
+rdf_analysis:
+  rdf_range: [0, 60]  # Angstroms
+  nbins: 60
+
+# Plotting parameters
+plotting:
+  dpi: 300
+  figsize: [10, 6]
+  colors:
+    - "#4C72B0"  # blue
+    - "#55A868"  # green
+    - "#C44E52"  # red
+    - "#8172B3"  # purple
+  markers:
+    - "o"
+    - "s"
+    - "^"
+    - "D"
