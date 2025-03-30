@@ -1,4 +1,4 @@
-# MDAnalysis-PtNEC-Analysis
+# PtNEC-MD-Analysis
 
 Analysis repository for MD simulations of Pt nanoparticles interacting with NEC species.
 
@@ -16,8 +16,8 @@ This repository contains code for analyzing molecular dynamics simulations of pl
 
 ```bash
 # Clone the repository
-git clone [repository-url]
-cd MDAnalysis-PtNEC-Analysis
+git clone https://github.com/fl-sean03/PtNEC-MD-Analysis.git
+cd PtNEC-MD-Analysis
 
 # Create and activate virtual environment
 python -m venv venv

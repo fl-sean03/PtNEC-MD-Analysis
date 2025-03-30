@@ -7,8 +7,8 @@ Thank you for your interest in contributing to the PtNEC MD Analysis project! Th
 1. Fork the repository on GitHub.
 2. Clone your fork locally:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/MDAnalysis-PtNEC-Analysis.git
-   cd MDAnalysis-PtNEC-Analysis
+   git clone https://github.com/YOUR-USERNAME/PtNEC-MD-Analysis.git
+   cd PtNEC-MD-Analysis
    ```
 
 3. Create a virtual environment and install dependencies:
